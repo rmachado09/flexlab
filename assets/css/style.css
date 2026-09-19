@@ -58,14 +58,16 @@ body {
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    
+    
 
     gap: 16px;
+
+    flex-wrap: wrap;
 }
 
 .item {
-    width: 100px;
+    /*width: 100px;*/
     min-height: 80px;
     padding: 24px;
     text-align: center;
@@ -74,4 +76,6 @@ body {
     border-radius: 8px;
     font-size: 24px;
     font-weight: 700;
+
+    flex: 1 1 150px;
 }
